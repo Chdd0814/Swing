@@ -2,6 +2,7 @@ package ChocolateInventoryApp;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
@@ -47,6 +48,12 @@ public class Main extends JFrame implements ActionListener{
 	public static void main(String[] args) {
 		
 		new Main();
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
